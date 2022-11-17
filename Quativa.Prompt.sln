@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quativa.Adapters.SqlServer", "Quativa.Adapters.SqlServer\Quativa.Adapters.SqlServer.csproj", "{DF4975F5-8614-429E-9A71-E35FCB832926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quativa.Adapters.Web", "Quativa.Adapters.Web\Quativa.Adapters.Web.csproj", "{583611B8-0401-46B1-88B7-D0C55C9D632B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quativa.Domain", "Quativa.Domain\Quativa.Domain.csproj", "{77A7FCEF-D894-49D0-9B99-AA4B0A09EF59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quativa.Ports", "Quativa.Ports\Quativa.Ports.csproj", "{D9AE6B57-A792-4099-BC44-DFD262DE392B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF4975F5-8614-429E-9A71-E35FCB832926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4975F5-8614-429E-9A71-E35FCB832926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4975F5-8614-429E-9A71-E35FCB832926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4975F5-8614-429E-9A71-E35FCB832926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{583611B8-0401-46B1-88B7-D0C55C9D632B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583611B8-0401-46B1-88B7-D0C55C9D632B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{583611B8-0401-46B1-88B7-D0C55C9D632B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583611B8-0401-46B1-88B7-D0C55C9D632B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A7FCEF-D894-49D0-9B99-AA4B0A09EF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A7FCEF-D894-49D0-9B99-AA4B0A09EF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A7FCEF-D894-49D0-9B99-AA4B0A09EF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A7FCEF-D894-49D0-9B99-AA4B0A09EF59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9AE6B57-A792-4099-BC44-DFD262DE392B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9AE6B57-A792-4099-BC44-DFD262DE392B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9AE6B57-A792-4099-BC44-DFD262DE392B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9AE6B57-A792-4099-BC44-DFD262DE392B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+- Authorization on endpoints
+- Better separation between api models and commands
+- Better separation between domain and data access objects
+- Persistence contracts could be more generic
+- Better mapping in the persistence layer
+- Better exception handling
